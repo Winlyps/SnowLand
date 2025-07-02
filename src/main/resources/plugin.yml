@@ -1,0 +1,14 @@
+name: SnowLand
+version: '1.0.0'
+main: winlyps.snowLand.SnowLand
+api-version: '1.20'
+authors: [ Winlyps ]
+commands:
+  snowland:
+    description: Toggles the snow effect.
+    usage: /<command>
+    permission: snowland.use
+permissions:
+  snowland.use:
+    description: Allows the user to use the snowland command.
+    default: op
